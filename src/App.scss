@@ -1,0 +1,69 @@
+body{
+    padding: 30px;
+    color:blue;
+}
+.currentRunningVideo_play
+{
+    display: flex;
+    justify-content: center;
+
+    #currentRunningVideo_status-button
+    {
+        padding:10px 30px;
+        background-color: blue;
+        color:aliceblue;
+        font-weight: 900;
+        border-radius: 10px;
+        border: 2px solid black;
+        cursor: pointer;
+        .currentRunningVideo_video-status
+        {
+            display: flex;
+            align-items: center;
+
+        }
+    }
+}
+.currentRunningVideo_title
+{
+    padding-left: 50px;
+}
+.currentRunningVideo_desc
+{
+    padding-left: 50px;
+    font-size: 20px;
+}
+.currentRunningVideo_duration
+{
+    color:gray;
+    font-size: 14px;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+
+.currentRunningVideo_options
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.currentRunningVideo_option
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+    padding-top: 70px;
+    
+}
+.currentRunningVideo_logo
+{
+    width:50px;
+    border-radius: 20px;
+}
+.currentRunningVideo_divider
+{
+    height: 0px;
+    margin-top: 50px;
+    border: 1px solid blue;
+}

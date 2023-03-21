@@ -1,0 +1,31 @@
+.videoCard_container
+{
+    // padding: 50px 30px;
+    .videoCard_videoThumbNail
+    {
+        width: 350px;
+        height: 190px;
+        cursor: pointer;
+    }
+    .videoCard_video-details
+    {
+        padding: 30px 0px;
+        .videoCard_title
+        {
+            font-size: 25px;
+            font-weight: bold;
+            white-space: wrap;
+            max-width: 350px;
+        }
+        .videoCard_desc
+        {
+            font-size: 20px;
+            font-weight: 700;
+        }
+        .videoCard_duration
+        {
+            font-weight: 14px;
+            color:gray
+        }
+    }
+}
